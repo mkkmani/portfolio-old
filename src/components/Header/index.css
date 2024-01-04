@@ -1,0 +1,39 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 40px;
+}
+
+.header-container p {
+  font-family: "high-emphasis";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.header-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  /* background-color: #fdc435; */
+  /* color: #fff; */
+  border-radius: 50%;
+}
+
+.header-ul li {
+  margin: 2px 3px;
+  padding: 0px 2px;
+  cursor: pointer;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  /* text-align: left; */
+}

@@ -1,0 +1,55 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.add-project-title {
+  font-family: "Playfair Display";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #25282b;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.form-input {
+  border: 1px solid #e8ecf4;
+  width: 300px;
+  height: 30px;
+  border-radius: 8px;
+  margin: 3px 0px;
+  padding: 4px;
+}
+
+.text-area {
+  height: 80px;
+}
+
+.add-btn {
+  align-self: flex-end;
+  width: 81px;
+  height: 43px;
+  padding: 8px, 24px;
+  border-radius: 8px;
+  background-color: #fdc435;
+  border: none;
+  margin-top: 8px;
+}

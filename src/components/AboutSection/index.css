@@ -1,0 +1,96 @@
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 2;
+  margin-left: 40px;
+  margin-right: 30px;
+}
+
+.role {
+  color: #fdc435;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about h1 {
+  font-family: "Playfair Display";
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.about-desc {
+  font-family: "Nunito";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+
+.projects-btn {
+  background-color: #fdc435;
+  border: none;
+  outline: none;
+  width: 115px;
+  height: 43px;
+  padding: 8px, 24px;
+  border-radius: 8px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.linked-btn {
+  border: 2px solid #25282b;
+  font-family: "Roboto";
+  width: 115px;
+  height: 43px;
+  padding: 8px, 24px;
+  border-radius: 8px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.about-img-container {
+  flex: 1;
+  margin-right: 0px;
+  padding-right: 0px;
+  margin-left: 50px;
+}
+
+.about-img {
+  width: 70%;
+  height: 100%;
+  border-top-left-radius: 80%;
+  border-top-right-radius: 55%;
+  border-bottom-left-radius: 55%;
+  border-bottom-right-radius: 80%;
+}
+
+.project-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
