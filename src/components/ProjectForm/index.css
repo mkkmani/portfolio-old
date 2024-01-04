@@ -14,6 +14,19 @@
   letter-spacing: 0em;
   text-align: center;
   color: #25282b;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.hr-line {
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+  border: none;
+  background-color: #fdc435;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .add-form {
@@ -28,6 +41,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+}
+
+.form-label {
+  color: #25282b;
 }
 
 .form-input {
@@ -47,7 +64,7 @@
   align-self: flex-end;
   width: 81px;
   height: 43px;
-  padding: 8px, 24px;
+  padding: 8px 24px;
   border-radius: 8px;
   background-color: #fdc435;
   border: none;

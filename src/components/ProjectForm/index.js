@@ -3,6 +3,7 @@ import "./index.css";
 const ProjectForm = () => (
   <div className="form-container">
     <h2 className="add-project-title">Add Project</h2>
+    <hr className="hr-line" />
     <form className="add-form">
       <div className="label-input">
         <label className="form-label" htmlFor="name">
