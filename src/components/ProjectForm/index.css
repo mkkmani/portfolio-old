@@ -61,7 +61,7 @@
 }
 
 .add-btn {
-  align-self: flex-end;
+  align-self: center;
   width: 81px;
   height: 43px;
   padding: 8px 24px;
@@ -69,4 +69,5 @@
   background-color: #fdc435;
   border: none;
   margin-top: 8px;
+  cursor: pointer;
 }

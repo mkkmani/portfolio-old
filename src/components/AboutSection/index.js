@@ -23,9 +23,11 @@ const About = () => {
             impact. Let's collaborate and bring ideas to life!
           </p>
           <div className="about-btn-container">
-            <button type="button" className="projects-btn">
-              Projects
-            </button>
+            <a href="#projects">
+              <button type="button" className="projects-btn">
+                Projects
+              </button>
+            </a>
             <button type="button" className="linked-btn">
               LinkedIn
             </button>
