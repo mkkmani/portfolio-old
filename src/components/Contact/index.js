@@ -3,7 +3,7 @@ import { FaInstagramSquare, FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 
 const Contact = () => (
-  <div className="contact-container">
+  <div className="contact-container" id="contact">
     <h2 className="add-project-title">Contact</h2>
     <div>
       <FaInstagramSquare className="contact-icon" />

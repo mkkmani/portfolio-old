@@ -1,43 +1,25 @@
 import React from "react";
 import "./index.css";
 
-const Header = (props) => {
-  const { scrollTo } = props;
-  const handleScrollTo = (section) => {
-    scrollTo(section);
-  };
-
-  return (
-    <div className="header-container">
-      <p>Manikanta Ketha</p>
-      <ul className="header-ul">
+const Header = () => (
+  <div className="header-container">
+    <p>Manikanta Ketha</p>
+    <ul className="header-ul">
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
         <li>
-          <button
-            className="header-btn"
-            onClick={() => handleScrollTo("about")}
-          >
-            About
-          </button>
+          <a href="#projects">Projects</a>
         </li>
+      </li>
+      <li>
         <li>
-          <button
-            className="header-btn"
-            onClick={() => handleScrollTo("projects")}
-          >
-            Projects
-          </button>
+          <a href="#contact">Contact</a>
         </li>
-        <li>
-          <button
-            className="header-btn"
-            onClick={() => handleScrollTo("contact")}
-          >
-            Contact
-          </button>
-        </li>
-      </ul>
-    </div>
-  );
-};
+      </li>
+    </ul>
+  </div>
+);
 
 export default Header;

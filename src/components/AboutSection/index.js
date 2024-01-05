@@ -7,7 +7,7 @@ const About = () => {
 
   return (
     <div>
-      <div id="profile" className="about-container">
+      <div id="about" className="about-container">
         <div className="about">
           <p className="role">Fullstack developer</p>
           <h1>Hello, my name is Manikanta Ketha</h1>
