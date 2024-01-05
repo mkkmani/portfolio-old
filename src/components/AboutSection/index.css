@@ -71,6 +71,7 @@
   border-radius: 8px;
   margin: 8px;
   cursor: pointer;
+  background: none;
 }
 
 .about-img-container {

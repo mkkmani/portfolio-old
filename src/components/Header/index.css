@@ -21,12 +21,10 @@
   justify-content: space-between;
   list-style-type: none;
   align-items: center;
-  /* background-color: #fdc435; */
-  /* color: #fff; */
   border-radius: 50%;
 }
 
-.header-ul li {
+.header-btn {
   margin: 2px 3px;
   padding: 0px 2px;
   cursor: pointer;
@@ -35,5 +33,10 @@
   font-weight: 500;
   line-height: 28px;
   letter-spacing: 0px;
-  /* text-align: left; */
+  background: none;
+  border: none;
+}
+
+.header-btn:hover {
+  color: #fdc435;
 }
