@@ -90,3 +90,14 @@
   flex-direction: column;
   align-items: center;
 }
+
+.project-li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add {
+  text-align: center;
+}

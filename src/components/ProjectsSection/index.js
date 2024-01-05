@@ -99,9 +99,9 @@ const Projects = () => {
           {projectsList.length > 0 && (
             <ul className="added-projects-ul">
               {projectsList.map((project) => (
-                <li key={project.projectId}>
-                  <h2 className="project-name">{project.name}</h2>
-                  <p className="project-desc">{project.description}</p>
+                <li key={project.projectId} className="project-li">
+                  <h2 className="project-name add">{project.name}</h2>
+                  <p className="project-desc add">{project.description}</p>
                   <Link to={project.link} className="link">
                     <button type="button" className="view-btn">
                       View project
