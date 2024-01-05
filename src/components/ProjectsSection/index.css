@@ -101,3 +101,19 @@
 .add {
   text-align: center;
 }
+
+@media screen and (max-width: 567px) {
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-image {
+    order: -1;
+    flex: none;
+    width: 100%;
+    height: 100%;
+  }
+}
