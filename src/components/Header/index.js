@@ -39,17 +39,17 @@ const Header = () => {
       {showMenu && (
         <ul className="sm-menu" aria-expanded={showMenu}>
           <li>
-            <a href="#about" onClick={toggleMenu}>
+            <a href="/about" onClick={toggleMenu}>
               About
             </a>
           </li>
           <li>
-            <a href="#projects" onClick={toggleMenu}>
+            <a href="/projects" onClick={toggleMenu}>
               Projects
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={toggleMenu}>
+            <a href="/contact" onClick={toggleMenu}>
               Contact
             </a>
           </li>
